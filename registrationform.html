@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            legend{ color:blue}
+            body{background-color: darkmagenta}
+        </style><title> Registration Form</title></head>
+    <body>
+        <form>
+            <fieldset style="color: aqua;">
+                <legend>Register</legend>
+            Name: <input type = "text" placeholder="Enter first and last name" required/><br>
+            Email ID: <input type = "email" placeholder = "someone@email.com"><br>
+            DOB: <input type = "date"><br>
+            Age: <input type ="number" max="99" min="18"><br>
+            Contact Number: <input type = "number"><br>
+            Gender: <br>
+                    <input type = "radio"  name = "gender" value = "Male"> Male <br>
+                    <input type = "radio"  name = "gender"  value = "Female"> Female <br>
+                    <input type = "radio"  name = "gender"  value="Non-Binary"> Non-Binary <br>
+            Address: <input type = "text"> <br>
+            Country: <select> <br>
+                <option value = "USA"></option>
+                <option value = "Canada"></option>
+                <option value = "Mexico"></option>
+            </select> <br>
+            Upload Profile Picture: <input type = "file"> <br>
+            <button type="submit">Submit</button>
+            </fieldset>
+        </form>
+    </body>
+</html>
